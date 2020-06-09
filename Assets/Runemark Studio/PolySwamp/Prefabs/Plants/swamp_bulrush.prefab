@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4235281641661484}
   - component: {fileID: 33616848974977302}
   - component: {fileID: 23187913558532900}
+  - component: {fileID: -1312560041747389416}
   m_Layer: 0
   m_Name: swamp_bulrush
   m_TagString: Untagged
@@ -80,3 +81,30 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!205 &-1312560041747389416
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593883986529732}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.0084242225, y: 0.8811003, z: 0.010260671}
+  m_Size: 1.7637925
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23187913558532900}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23187913558532900}
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23187913558532900}
+  m_Enabled: 1
